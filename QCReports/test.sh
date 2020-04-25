@@ -4,8 +4,7 @@ file="$1"
 
 for i in {1..48}
 
-while read line
-
 do
-    mkdir "${line}"
+  read line
+  mkdir "${line}"
 done < "$1"
