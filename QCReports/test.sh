@@ -2,7 +2,10 @@
 
 file="$1"
 
-while read line;
+for i in {1..48}
+
+while read line
+
 do
     mkdir "${line}"
-done
+done < "$1"
