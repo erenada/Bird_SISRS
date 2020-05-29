@@ -5,9 +5,9 @@
 cd /home/erenada/BirdTree/Alignments/"$1"/"$2"/
 
 TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
-Msp=(`m0,m1,m2,m3,m4,m5`)
+Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0`)
 
-for i in ${TypesOfData[@]}
+for i in ${Msp[@]}
 do
 echo "$i"
 done
