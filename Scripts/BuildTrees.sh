@@ -9,23 +9,15 @@ Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 # done
 #
 
-for i in ${TypesOfData[@]}
+
+for i in ${TypesOfData[*]}
 do
-  mkdir /home/erenada/BirdTree/Trees/"$1"/
+mkdir /home/erenada/BirdTree/Trees/AllSites/Gap/$i
 done
 
 
-
-# for i in ${TypesOfData[@]}
-# do
-# echo /home/erenada/BirdTree/Trees/$i/
-# done
-
-# for i in ${TypesOfData[*]}
-# do
-# mkdir /home/erenada/BirdTree/Trees/${TypesOfData[*]}
-# done
 # #Make folders
+
 #
 #
 # for i in ${#TypesOfData[@]}
