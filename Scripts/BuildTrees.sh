@@ -5,7 +5,7 @@
 cd /home/erenada/BirdTree/Alignments/"$1"/"$2"/
 
 TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
-Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0`)
+Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 
 for i in ${Msp[@]}
 do
