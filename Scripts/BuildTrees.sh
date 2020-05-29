@@ -15,10 +15,9 @@ Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 # done
 #
 
-
 for i in ${TypesOfData[@]}
 do
-echo ${TypesOfData[i]}
+echo /home/erenada/BirdTree/Trees/$i/
 done
 
 # for i in ${TypesOfData[*]}
