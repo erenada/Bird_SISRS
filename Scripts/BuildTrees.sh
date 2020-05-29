@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# go into the related folder
-# v1: AllSites
-# v2: Gap/NoGap
-
-cd /home/erenada/BirdTree/Alignments/"$1"/"$2"/
-
 TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
 Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 
@@ -17,8 +11,15 @@ Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 
 for i in ${TypesOfData[@]}
 do
-echo /home/erenada/BirdTree/Trees/$i/
+  mkdir /home/erenada/BirdTree/Trees/"$1"/
 done
+
+
+
+# for i in ${TypesOfData[@]}
+# do
+# echo /home/erenada/BirdTree/Trees/$i/
+# done
 
 # for i in ${TypesOfData[*]}
 # do
