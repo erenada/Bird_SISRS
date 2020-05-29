@@ -13,7 +13,9 @@ declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 for data in ${TypesOfData[*]}
 do
 for missing in ${Msp[*]}
+do
 echo "/home/erenada/BirdTree/Alignments/AllSites/Gap/$mising/$data"
+done
 done
 
 
