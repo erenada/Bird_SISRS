@@ -12,7 +12,7 @@ declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 
 for i in ${Msp[*]}
 do
-echo /home/erenada/BirdTree/Alignments/$1/$2/$i/
+echo /home/erenada/BirdTree/Alignments/$1/$2/$i/ > paths.txt
 done
 
 
