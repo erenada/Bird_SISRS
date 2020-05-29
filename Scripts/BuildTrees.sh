@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
-Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
+declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
+declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 
 # for i in ${TypesOfData[@]}
 # do
