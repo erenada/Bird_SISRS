@@ -10,14 +10,13 @@ declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 #
 
 
-for i in ${Msp[*]}
+for data in ${TypesOfData[*]}
 do
-echo /home/erenada/BirdTree/Alignments/$1/$2/$i/$TypesOfData[*]>> paths.txt
+for missing in ${Msp[*]}
+echo /home/erenada/BirdTree/Alignments/AllSites/Gap/$mising/$TypesOfData
 done
 
 
-
-# #Make folders
 
 #
 #
