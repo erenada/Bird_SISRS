@@ -12,9 +12,15 @@ declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 
 for i in ${Msp[*]}
 do
-echo /home/erenada/BirdTree/Alignments/$1/$2/$i/ > paths.txt
+echo /home/erenada/BirdTree/Alignments/$1/$2/$i/>> paths.txt
 done
 
+mapfile -t AllPaths < paths.txt
+
+for path AllPaths
+do
+  echo $TypesOfData[*]
+done
 
 # #Make folders
 
