@@ -10,9 +10,9 @@ declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 #
 
 
-for i in ${TypesOfData[*]}
+for i in ${Msp[*]}
 do
-echo /home/erenada/BirdTree/Alignments/$2/$1/${Msp[1]}
+echo /home/erenada/BirdTree/Alignments/$1/$2/$i/
 done
 
 
