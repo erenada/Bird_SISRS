@@ -12,7 +12,7 @@ Msp=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/`)
 
 for i in ${TypesOfData[*]}
 do
-mkdir /home/erenada/BirdTree/Trees/AllSites/Gap/$i
+echo /home/erenada/BirdTree/Trees/AllSites/Gap/$i/{$Msp[*]}
 done
 
 
