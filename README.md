@@ -1,2 +1,4 @@
 # Bird_SISRS
-48 bird genome data prep steps &amp; scripts
+
+This repository contains the supplementary material for Ada et al. 2020.
+
