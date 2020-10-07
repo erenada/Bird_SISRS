@@ -1,0 +1,72 @@
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Sep 24 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n056.cluster.com (AVX, 125 GB RAM)
+Command: iqtree -t Jarvis_Renamed.nwk -s M16_smRNA --scf 500 --prefix concord_M16_smRNA -nt 20
+Seed:    999609 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 15 16:44:51 2019
+Kernel:  AVX - 20 threads (20 CPU cores detected)
+
+Reading alignment file M16_smRNA ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 48 sequences with 747 columns, 740 distinct patterns
+747 parsimony-informative, 0 singleton sites, 0 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  AcaChl    5.49%    passed     11.57%
+   2  AnaPla    8.97%    passed     78.51%
+   3  AntCar    6.16%    passed     91.78%
+   4  ApaVit    4.28%    passed     69.97%
+   5  AptFor    7.23%    passed     81.00%
+   6  BalReg    3.48%    passed     83.60%
+   7  BucRhi    9.24%    passed     88.92%
+   8  CalAnn    5.35%    passed     96.65%
+   9  CarCri    7.23%    passed     90.77%
+  10  CatAur    7.23%    passed     88.78%
+  11  ChaPel    3.08%    passed     95.49%
+  12  ChaVoc    3.88%    passed     97.02%
+  13  ChlMac    3.75%    passed     51.55%
+  14  ColLiv    5.22%    passed     99.94%
+  15  ColStr    5.22%    passed     54.11%
+  16  CorBra    5.62%    passed     32.47%
+  17  CucCan    4.15%    passed     78.35%
+  18  EgrGar    3.08%    passed     73.02%
+  19  EurHel    5.49%    passed     91.72%
+  20  FalPer    6.02%    passed     75.71%
+  21  FulGla    3.21%    passed     93.76%
+  22  GalGal    4.42%    passed     83.17%
+  23  GavSte    5.22%    passed     90.65%
+  24  GeoFor    6.69%    failed      3.59%
+  25  HalAlb    7.63%    passed     98.03%
+  26  HalLeu    2.14%    passed     92.20%
+  27  LepDis    4.02%    passed     66.61%
+  28  ManVit    5.89%    passed     66.54%
+  29  MelGal    2.81%    passed     81.64%
+  30  MelUnd    5.89%    passed     66.49%
+  31  MerNub    6.69%    passed     98.71%
+  32  MesUni    4.95%    passed     95.95%
+  33  NesNot    4.82%    passed     96.26%
+  34  NipNip    3.35%    passed     86.85%
+  35  OpiHoa    2.01%    passed     98.95%
+  36  PelCri    3.61%    passed     91.39%
+  37  PhaCar    7.90%    passed     80.24%
+  38  PhaLep    4.28%    passed     66.30%
+  39  PhoRub    3.75%    passed     99.97%
+  40  PicPub    6.83%    passed     81.56%
+  41  PodCri    5.22%    passed     84.64%
+  42  PteGut    7.23%    passed     96.58%
+  43  PygAde    3.21%    passed     78.35%
+  44  StrCam    7.63%    passed     80.09%
+  45  TaeGut    7.76%    passed     54.08%
+  46  TauEry    1.87%    passed     77.14%
+  47  TinGut   19.81%    passed     98.56%
+  48  TytAlb    9.91%    passed     83.51%
+****  TOTAL     5.60%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading tree Jarvis_Renamed.nwk ...
+rooted tree with 48 taxa and 95 branches
+Computing site concordance factor...
+0.038 sec
+Tree with concordance factors written to concord_M16_smRNA.cf.tree
+Tree with branch IDs written to concord_M16_smRNA.cf.branch
+Concordance factors per branch printed to concord_M16_smRNA.cf.stat
+Date and Time: Fri Nov 15 16:44:51 2019

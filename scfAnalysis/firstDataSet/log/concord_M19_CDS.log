@@ -1,0 +1,72 @@
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Sep 24 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n056.cluster.com (AVX, 125 GB RAM)
+Command: iqtree -t Jarvis_Renamed.nwk -s M19_CDS --scf 500 --prefix concord_M19_CDS -nt 20
+Seed:    475551 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 15 17:02:55 2019
+Kernel:  AVX - 20 threads (20 CPU cores detected)
+
+Reading alignment file M19_CDS ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 48 sequences with 268870 columns, 244230 distinct patterns
+268870 parsimony-informative, 0 singleton sites, 0 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  AcaChl    9.05%    failed      0.00%
+   2  AnaPla    6.05%    passed     94.74%
+   3  AntCar    6.80%    failed      0.00%
+   4  ApaVit    7.78%    failed      0.00%
+   5  AptFor    5.35%    failed      0.00%
+   6  BalReg    3.78%    failed      0.00%
+   7  BucRhi    5.83%    failed      0.00%
+   8  CalAnn    5.13%    failed      2.90%
+   9  CarCri    5.41%    failed      0.00%
+  10  CatAur   10.79%    failed      0.00%
+  11  ChaPel    4.55%    failed      0.00%
+  12  ChaVoc    2.90%    failed      0.00%
+  13  ChlMac    4.90%    failed      0.00%
+  14  ColLiv    4.74%    failed      0.00%
+  15  ColStr    7.99%    failed      0.00%
+  16  CorBra    8.20%    failed      0.00%
+  17  CucCan    4.32%    failed      0.00%
+  18  EgrGar    2.79%    failed      0.00%
+  19  EurHel    5.76%    failed      0.00%
+  20  FalPer    6.31%    failed      0.00%
+  21  FulGla    3.31%    failed      0.00%
+  22  GalGal    5.10%    passed      9.78%
+  23  GavSte    4.17%    failed      0.00%
+  24  GeoFor   11.39%    failed      0.00%
+  25  HalAlb    7.29%    failed      0.00%
+  26  HalLeu    2.29%    failed      0.00%
+  27  LepDis    3.58%    passed     33.20%
+  28  ManVit   10.32%    failed      0.00%
+  29  MelGal    4.59%    failed      0.00%
+  30  MelUnd    5.65%    failed      0.00%
+  31  MerNub    7.84%    failed      0.00%
+  32  MesUni    5.29%    failed      0.00%
+  33  NesNot    5.20%    failed      0.00%
+  34  NipNip    3.20%    failed      0.00%
+  35  OpiHoa    4.54%    failed      0.00%
+  36  PelCri    3.40%    failed      0.00%
+  37  PhaCar    5.62%    failed      0.00%
+  38  PhaLep    3.03%    failed      0.00%
+  39  PhoRub    3.69%    failed      0.00%
+  40  PicPub    8.59%    failed      0.00%
+  41  PodCri    4.28%    failed      0.00%
+  42  PteGut    5.95%    failed      0.00%
+  43  PygAde    3.41%    failed      0.00%
+  44  StrCam    4.20%    failed      0.00%
+  45  TaeGut    9.57%    failed      0.00%
+  46  TauEry    3.83%    passed     54.28%
+  47  TinGut   16.37%    failed      0.00%
+  48  TytAlb    6.71%    failed      0.00%
+****  TOTAL     5.85%  44 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading tree Jarvis_Renamed.nwk ...
+rooted tree with 48 taxa and 95 branches
+Computing site concordance factor...
+14.263 sec
+Tree with concordance factors written to concord_M19_CDS.cf.tree
+Tree with branch IDs written to concord_M19_CDS.cf.branch
+Concordance factors per branch printed to concord_M19_CDS.cf.stat
+Date and Time: Fri Nov 15 17:03:11 2019
